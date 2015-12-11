@@ -16,20 +16,20 @@
 		22CA31B81B022D1300D2DE70 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CA31B61B022D1300D2DE70 /* Launch Screen.storyboard */; };
 		667A7AC11C193EEF0094A94C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A7AC01C193EEF0094A94C /* QuartzCore.framework */; };
 		667A7AEC1C1946660094A94C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A7AEB1C1946660094A94C /* Accelerate.framework */; };
-		667A7B0D1C1948690094A94C /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A7B0A1C1948420094A94C /* libCorePlot-CocoaTouch.a */; };
+		667A7B1B1C1AB3AB0094A94C /* CharViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A7B1A1C1AB3AB0094A94C /* CharViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		667A7B091C1948420094A94C /* PBXContainerItemProxy */ = {
+		667A7B151C1AA21B0094A94C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 667A7B031C1948420094A94C /* CorePlot-CocoaTouch.xcodeproj */;
+			containerPortal = 667A7B0F1C1AA21B0094A94C /* CorePlot-CocoaTouch.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
 			remoteInfo = "CorePlot-CocoaTouch";
 		};
-		667A7B0B1C1948620094A94C /* PBXContainerItemProxy */ = {
+		667A7B171C1AA32B0094A94C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 667A7B031C1948420094A94C /* CorePlot-CocoaTouch.xcodeproj */;
+			containerPortal = 667A7B0F1C1AA21B0094A94C /* CorePlot-CocoaTouch.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
 			remoteInfo = "CorePlot-CocoaTouch";
@@ -52,7 +52,9 @@
 		22CA31B91B0250C300D2DE70 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		667A7AC01C193EEF0094A94C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		667A7AEB1C1946660094A94C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		667A7B031C1948420094A94C /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "External/core-plot/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		667A7B0F1C1AA21B0094A94C /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "External/core-plot/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		667A7B191C1AB3AB0094A94C /* CharViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharViewController.h; sourceTree = "<group>"; };
+		667A7B1A1C1AB3AB0094A94C /* CharViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667A7B0D1C1948690094A94C /* libCorePlot-CocoaTouch.a in Frameworks */,
 				667A7AEC1C1946660094A94C /* Accelerate.framework in Frameworks */,
 				667A7AC11C193EEF0094A94C /* QuartzCore.framework in Frameworks */,
 			);
@@ -74,10 +75,10 @@
 			children = (
 				667A7AEB1C1946660094A94C /* Accelerate.framework */,
 				667A7AC01C193EEF0094A94C /* QuartzCore.framework */,
-				667A7AB21C193B2E0094A94C /* External */,
 				22CA31B91B0250C300D2DE70 /* README.md */,
 				2206265B1A1E330400A45150 /* AVCam */,
 				2206265A1A1E330400A45150 /* Products */,
+				667A7B0F1C1AA21B0094A94C /* CorePlot-CocoaTouch.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +99,8 @@
 				220626851A1E345E00A45150 /* AAPLPreviewView.m */,
 				220626861A1E345E00A45150 /* AAPLCameraViewController.h */,
 				220626871A1E345E00A45150 /* AAPLCameraViewController.m */,
+				667A7B191C1AB3AB0094A94C /* CharViewController.h */,
+				667A7B1A1C1AB3AB0094A94C /* CharViewController.m */,
 				22CA31B61B022D1300D2DE70 /* Launch Screen.storyboard */,
 				220626661A1E330400A45150 /* Main.storyboard */,
 				220626691A1E330400A45150 /* Images.xcassets */,
@@ -115,18 +118,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		667A7AB21C193B2E0094A94C /* External */ = {
+		667A7B101C1AA21B0094A94C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				667A7B031C1948420094A94C /* CorePlot-CocoaTouch.xcodeproj */,
-			);
-			name = External;
-			sourceTree = "<group>";
-		};
-		667A7B041C1948420094A94C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				667A7B0A1C1948420094A94C /* libCorePlot-CocoaTouch.a */,
+				667A7B161C1AA21B0094A94C /* libCorePlot-CocoaTouch.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,7 +140,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				667A7B0C1C1948620094A94C /* PBXTargetDependency */,
+				667A7B181C1AA32B0094A94C /* PBXTargetDependency */,
 			);
 			name = AVCam;
 			productName = AVCam;
@@ -179,8 +174,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 667A7B041C1948420094A94C /* Products */;
-					ProjectRef = 667A7B031C1948420094A94C /* CorePlot-CocoaTouch.xcodeproj */;
+					ProductGroup = 667A7B101C1AA21B0094A94C /* Products */;
+					ProjectRef = 667A7B0F1C1AA21B0094A94C /* CorePlot-CocoaTouch.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -191,11 +186,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		667A7B0A1C1948420094A94C /* libCorePlot-CocoaTouch.a */ = {
+		667A7B161C1AA21B0094A94C /* libCorePlot-CocoaTouch.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libCorePlot-CocoaTouch.a";
-			remoteRef = 667A7B091C1948420094A94C /* PBXContainerItemProxy */;
+			remoteRef = 667A7B151C1AA21B0094A94C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -219,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220626881A1E345E00A45150 /* AAPLAppDelegate.m in Sources */,
+				667A7B1B1C1AB3AB0094A94C /* CharViewController.m in Sources */,
 				2206265F1A1E330400A45150 /* main.m in Sources */,
 				220626891A1E345E00A45150 /* AAPLPreviewView.m in Sources */,
 				2206268A1A1E345E00A45150 /* AAPLCameraViewController.m in Sources */,
@@ -228,10 +224,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		667A7B0C1C1948620094A94C /* PBXTargetDependency */ = {
+		667A7B181C1AA32B0094A94C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CorePlot-CocoaTouch";
-			targetProxy = 667A7B0B1C1948620094A94C /* PBXContainerItemProxy */;
+			targetProxy = 667A7B171C1AA32B0094A94C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,7 +339,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/External/core-plot/framework/";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/External/core-plot/framework/**";
 				INFOPLIST_FILE = AVCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -362,7 +358,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/External/core-plot/framework/";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/External/core-plot/framework/**";
 				INFOPLIST_FILE = AVCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;

@@ -635,7 +635,6 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
-                        <outlet property="ChartView" destination="UOi-Xi-uSo" id="O5S-DQ-Pib"/>
                         <outlet property="cameraButton" destination="rUJ-G6-RPv" id="dAV-WS-N1p"/>
                         <outlet property="cameraUnavailableLabel" destination="zf0-db-esM" id="P9W-lb-Pb8"/>
                         <outlet property="countDownLabel" destination="s70-Lu-vPs" id="UyX-Cl-eXL"/>

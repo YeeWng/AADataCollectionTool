@@ -8,8 +8,8 @@ View controller for camera interface.
 
 #import <Foundation/NSObject.h>
 #import <CoreLocation/CoreLocation.h>
-#import "Chart/DSBarChart.h"
-//#import "CorePlot-CocoaTouch.h"
+//#import "Chart/DSBarChart.h"
+#import "CorePlot-CocoaTouch.h"
 @import UIKit;
 
 @interface AAPLCameraViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, CLLocationManagerDelegate, AVCaptureVideoDataOutputSampleBufferDelegate, NSURLConnectionDataDelegate>
